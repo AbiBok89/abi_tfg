@@ -1,0 +1,16 @@
+filename = 'playerrevive_compat-1.0.4-daf51f2.jar'
+name = '[TaCZ/SBW] PlayerRevive gun mod compitability'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'bd7596d7a225dd4d1cc10a020431b51cc1e21de4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8608222
+project-id = 1440963

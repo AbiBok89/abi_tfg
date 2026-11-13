@@ -1,0 +1,69 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iv__insane_voltage"
+	group: "21D975CEBDE06BA9"
+	icon: "tfg:iv_universal_circuit"
+	id: "32EF20533F323E02"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"This Chapter will be updated later on with &lSpace Progression&r. "
+				""
+				"From this point onwards, the modpack is purely base GregTech. It's technically completable, but nothing is balanced, and we recommend playing something else until new chapters are released."
+				""
+				"Thank you for playing!"
+			]
+			icon: "createdeco:decal_warning"
+			id: "6C19392E36A88F33"
+			size: 2.5d
+			subtitle: "Here be dragons!"
+			tasks: [{
+				id: "16F17ECCB810D2CB"
+				title: "Okay I understand it's not up to date"
+				type: "checkmark"
+			}]
+			title: "Work in Progress"
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: ["{quests.insane_voltage.venus.desc}"]
+			id: "5899CCAFC067D029"
+			optional: true
+			subtitle: "{quests.insane_voltage.venus.subtitle}"
+			tasks: [{
+				dimension: "ad_astra:venus"
+				icon: "ad_astra:venus_globe"
+				id: "0027444260D382AF"
+				title: "{quests.insane_voltage.venus.task}"
+				type: "dimension"
+			}]
+			title: "{quests.insane_voltage.venus.title}"
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: ["{quests.insane_voltage.mercury.desc}"]
+			id: "4B5FD29261A04F49"
+			optional: true
+			subtitle: "{quests.insane_voltage.mercury.subtitle}"
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				icon: "ad_astra:mercury_globe"
+				id: "23311A7DF921E876"
+				title: "{quests.insane_voltage.mercury.task}"
+				type: "dimension"
+			}]
+			title: "{quests.insane_voltage.mercury.title}"
+			x: 6.5d
+			y: 7.0d
+		}
+	]
+	subtitle: ["The quests are outdated. They will be update in a later update."]
+	title: "&1IV&r - Insane Voltage &6(WIP)&r"
+}

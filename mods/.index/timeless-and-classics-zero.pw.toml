@@ -1,0 +1,16 @@
+filename = 'tacz-1.20.1-1.1.8-hotfix2.jar'
+name = '[TaCZ] Timeless and Classics Zero Guns'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5c2f72dfe8125ffa863e3b5feafa27d86d7e56ea'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9037989
+project-id = 1028108

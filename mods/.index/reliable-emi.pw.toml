@@ -1,0 +1,16 @@
+filename = 'remi-forge-1.20.1-4.8.0.jar'
+name = 'Reliable EMI (REMI)'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e434ce118616ed75f488673c91e73d997c43556e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9307525
+project-id = 1411826

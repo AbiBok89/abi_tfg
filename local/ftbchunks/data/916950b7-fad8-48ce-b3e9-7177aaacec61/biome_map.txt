@@ -1,0 +1,11 @@
+#5D1 tfg:earth/buttes
+#6B8 tfg:earth/hills
+#166 tfg:earth/low_canyons
+#4D4 tfg:earth/old_mountains
+#370 tfg:earth/plateau
+#438 tfg:earth/plateau_wide
+#672 tfg:earth/river
+#13E tfg:earth/rolling_hills
+#0D3 tfg:earth/shore
+#7D7 tfg:earth/tower_karst_lake
+#2F1 tfg:earth/tower_karst_plains

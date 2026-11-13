@@ -1,0 +1,16 @@
+filename = 'adaptive_performance_tweaks_gamerules_1.20.1-11.6.1.jar'
+name = 'APTweaks: Gamerules (11.x Classic)'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'da518957f38005acf1774d38013f5ca9f59e4805'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7736356
+project-id = 561137

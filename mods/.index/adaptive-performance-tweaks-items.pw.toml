@@ -1,0 +1,16 @@
+filename = 'adaptive_performance_tweaks_items_1.20.1-11.6.1.jar'
+name = 'APTweaks: Items (11.x Classic)'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '52b58d36ca830d684119a4ae0a2c16d310b62ba3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7736364
+project-id = 561439

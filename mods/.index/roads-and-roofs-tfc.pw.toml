@@ -1,0 +1,16 @@
+filename = 'rnr-0.2.6-1.20.1.jar'
+name = 'Roads and Roofs TFC'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '77b6b468621ce31b3cd0ad2f36adb97b1445e29a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8986076
+project-id = 1048212

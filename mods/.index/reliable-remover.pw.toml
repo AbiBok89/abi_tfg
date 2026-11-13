@@ -1,0 +1,16 @@
+filename = 'reliable_remover-3.8.3+1.20.1-forge.jar'
+name = 'Reliable Remover'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b8d7e7037096b006d38fc7d99bf0a9a036e2659c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9329828
+project-id = 1420447

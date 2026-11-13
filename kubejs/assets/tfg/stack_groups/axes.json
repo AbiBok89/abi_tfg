@@ -1,0 +1,11 @@
+{
+  "id": "tfg:axes",
+  "name": "stackgroup.remi.tfg_axes",
+  "type": "remi:group",
+  "contents": [
+    "#tfc:axes"
+  ],
+  "exclusions": [
+    "#forge:tools/chainsaws"
+  ]
+}

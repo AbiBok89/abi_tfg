@@ -1,0 +1,25 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "item:gtceu:quantum_processor_mainframe",
+    [
+      "item:gtceu:quantum_processor_mainframe",
+      "item:gtceu:crystal_processor_computer",
+      "item:gtceu:wetware_processor_assembly"
+    ],
+    "item:tfg:zpm_universal_circuit",
+    "item:tfg:ev_universal_circuit",
+    "item:matter_manipulator:prototype_matter_manipulator{MatterManipulator:{}}",
+    "item:tfg:oxygen_distributor",
+    "item:tfg:heat_pump",
+    "item:create_connected:kinetic_bridge"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

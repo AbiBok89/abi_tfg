@@ -1,0 +1,16 @@
+filename = 'Jade-1.20.1-Forge-11.13.3.jar'
+name = 'Jade 🔍'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd08e64e66521d69e083c8525f1fc507f1c202384'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8479276
+project-id = 324717

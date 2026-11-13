@@ -1,0 +1,16 @@
+filename = 'ExtendedAE-1.20-1.4.22-forge.jar'
+name = 'ExtendedAE'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3b008bf1731497bb7f3c5c7160264ae7cf5d6f54'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9304849
+project-id = 892005

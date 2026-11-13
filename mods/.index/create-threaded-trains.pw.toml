@@ -1,0 +1,16 @@
+filename = 'createthreadedtrains-forge-1.20.1-1.0.0.jar'
+name = 'Create: Threaded Trains'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '83e84cc50c85c94c187f9e2019ab43f2478fd4e0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7208557
+project-id = 1381890

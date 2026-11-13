@@ -1,0 +1,16 @@
+filename = 'tfc_support_indicator-1.0.7+mc1.20.1.jar'
+name = 'TFC Support Indicator'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '254e298e27e574da9822946eb7f1362d1ef06b4d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7700000
+project-id = 1195624

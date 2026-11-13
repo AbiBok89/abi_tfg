@@ -1,0 +1,16 @@
+filename = 'cosycritters-0.3.3+1.20.1-forge.jar'
+name = 'Cosy Critters & Creepy Crawlies'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '26db309a19862fd1923288392973f3a893afe1b3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8390090
+project-id = 1182393

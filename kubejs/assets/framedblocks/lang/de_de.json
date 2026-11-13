@@ -1,0 +1,9 @@
+{
+  "block.framedblocks.framed_pane": "Gerahmte Scheibe",
+  "desc.framedblocks.blueprint_invalid": "Ungültig",
+  "desc.framedblocks.blueprint_none": "Nichts",
+  "msg.framedblocks.powered_saw.status.ready": "Bereit",
+  "tooltip.framedblocks.one_way_window.face.none": "Nichts",
+  "tooltip.framedblocks.y_slope.horizontal": "horizontales",
+  "tooltip.framedblocks.y_slope.vertical": "vertikales"
+}
