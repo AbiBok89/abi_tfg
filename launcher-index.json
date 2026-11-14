@@ -37,11 +37,11 @@
       "minecraftVersion": "1.20.1",
       "loader": {
         "type": "forge",
-        "version": "47.3.0"
+        "version": "47.4.13"
       },
       "javaVersion": 17,
       "serverAddress": "abibok.20tps.ru:25565",
-      "backgroundUrl": "./assets/bg-tfg.jpg",
+      "backgroundUrl": "https://raw.githubusercontent.com/AbiBok89/abi_tfg/main/assets/bg-tfg.jpg",
       "description": "Индустриальное выживание и технологии. Версия MC: 1.20.1 (Forge)",
       "manifestUrl": "https://github.com/AbiBok89/abi_tfg/releases/download/V0.13.18/manifest.json"
     }
