@@ -4,7 +4,7 @@
   "name": "TerraFirmaGreg-Modern",
   "summary": "Индустриальное выживание и технологии на базе TerraFirmaCraft и GregTech.",
   "description": "Индустриальное выживание и технологии. Версия MC: 1.20.1 (Forge 47.4.13)",
-  "cover": "assets/bg-tfg.jpg",
+  "cover": "ForLauncher/bg-tfg.jpg",
   "version": "V0.13.18",
   "minecraft": "1.20.1",
   "loader": {
@@ -18,5 +18,5 @@
     "host": "abibok.20tps.ru",
     "port": 25565
   },
-  "news": "launcher/news.json"
+  "news": "ForLauncher/news.json"
 }
