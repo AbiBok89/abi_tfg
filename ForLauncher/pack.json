@@ -11,7 +11,7 @@
     "type": "forge",
     "version": "47.4.13"
   },
-  "recommendedMemoryMb": 6144,
+  "recommendedMemoryMb": 8192,
   "manifestUrl": "https://github.com/AbiBok89/abi_tfg/releases/download/V0.13.18.1/manifest.json",
   "server": {
     "name": "TerraFirmaGreg-Modern",
