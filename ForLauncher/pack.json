@@ -4,19 +4,18 @@
   "name": "TerraFirmaGreg-Modern",
   "summary": "Индустриальное выживание и технологии на базе TerraFirmaCraft и GregTech.",
   "description": "Индустриальное выживание и технологии. Версия MC: 1.20.1 (Forge 47.4.13)",
-  "cover": "ForLauncher/bg-tfg.jpg",
-  "version": "V0.13.18.1",
+  "cover": "ForLauncher/bg-tfg-modern.png",
+  "version": "0.13.19",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
     "version": "47.4.13"
   },
-  "recommendedMemoryMb": 6144,
-  "manifestUrl": "https://github.com/AbiBok89/abi_tfg/releases/download/V0.13.18.1/manifest.json",
+  "recommendedMemoryMb": 8192,
+  "manifestUrl": "https://github.com/AbiBok89/abi_tfg/releases/download/v0.13.19/manifest.json",
   "server": {
     "name": "TerraFirmaGreg-Modern",
-    "host": "abibok.20tps.ru",
-    "port": 25565
+    "host": "abibok.20tps.ru"
   },
   "news": "ForLauncher/news.json"
 }

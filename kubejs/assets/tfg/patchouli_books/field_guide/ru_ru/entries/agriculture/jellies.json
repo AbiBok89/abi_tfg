@@ -28,14 +28,14 @@
 			"type": "patchouli:text",
 			"title": "Производит",
 			"anchor": "produce",
-			"text": "$(thing)Джелли$() слегка привередливы, и не будут производить продукты вне среды своего естественного обитания.\nСтоит учесть, что размножать их можно в любой среде.\n$(br2)Они так же не любят автоматизацию, и будут давать продукты только в том случае, когда их кормит игрок. .$(br2)$(#B0B0B0)$(o)Возможно они хотят внимания и заботы..."
+			"text": "$(thing)Jellies$() are quite picky and will refuse to produce anything outside their natural habitat; however, they will breed just fine in any environment.$(br2)You can use a $(l:agriculture/animal_husbandry#feeding_trough)Feeding Trough$() to feed and breed them, but they require hand-feeding (either a player or deployer) to give any of their products.$(br2)$(#B0B0B0)$(o)Or maybe they just want attention..."
 		},
 		{
 			"type": "patchouli:crafting",
 			"title": "Кормёжка",
 			"recipe": "tfg:shaped/jellies_nutritional_mash",
 			"anchor": "feeding",
-			"text": "$(thing)Питательное пюре$() является главным источником пищи всех $(thing)джелли$(), оно изготавливается преимущественно из зерна, фруктов, а также некоторых ингредиентов, зависящих от измерения.$(br2)К сожалению, они довольно привередливы, а потому их должен кормить $(thing)Игрок$(), а не $(l:agriculture/animal_husbandry#feeding_trough)Кормушка$().$(br)$(#B0B0B0)$(o)Почему оно двигается..."
+			"text": "$(thing)Питательное пюре$() является главным источником пищи всех $(thing)джелли$(), оно изготавливается преимущественно из зерна, фруктов, а также некоторых ингредиентов, зависящих от измерения."
 		},
 		{
 			"type": "patchouli:entity",
@@ -82,5 +82,8 @@
 		}
 	],
 	"read_by_default": true,
-	"sortnum": 7
+	"sortnum": 7,
+	"extra_recipe_mappings": {
+		"tag:jellies:slime_ball": 0
+	}
 }

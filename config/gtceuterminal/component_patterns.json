@@ -1,0 +1,96 @@
+{
+  "version": "1.0",
+  "_comment": "Component detection patterns - See documentation for more info",
+  "patterns": [
+    {
+      "pattern": "gtmthings:*_wireless_energy_input_hatch",
+      "componentType": "WIRELESS_ENERGY_INPUT",
+      "priority": 100,
+      "description": "Wireless Energy Input Hatch (all tiers)"
+    },
+    {
+      "pattern": "gtmthings:*_wireless_energy_output_hatch",
+      "componentType": "WIRELESS_ENERGY_OUTPUT",
+      "priority": 100,
+      "description": "Wireless Energy Output Hatch (all tiers)"
+    },
+    {
+      "pattern": "gtmthings:*_wireless_laser_target_hatch",
+      "componentType": "WIRELESS_LASER_INPUT",
+      "priority": 100,
+      "description": "Wireless Laser Target Hatch (all tiers)"
+    },
+    {
+      "pattern": "gtmthings:*_wireless_laser_source_hatch",
+      "componentType": "WIRELESS_LASER_OUTPUT",
+      "priority": 100,
+      "description": "Wireless Laser Source Hatch (all tiers)"
+    },
+    {
+      "pattern": "*:*_energy_input_hatch_4a",
+      "componentType": "ENERGY_HATCH",
+      "priority": 90,
+      "displayPrefix": "4A",
+      "description": "4A Energy Input Hatch"
+    },
+    {
+      "pattern": "*:*_energy_input_hatch_16a",
+      "componentType": "ENERGY_HATCH",
+      "priority": 90,
+      "displayPrefix": "16A",
+      "description": "16A Energy Input Hatch"
+    },
+    {
+      "pattern": "*:*_energy_input_hatch_64a",
+      "componentType": "ENERGY_HATCH",
+      "priority": 90,
+      "displayPrefix": "64A",
+      "description": "64A Energy Input Hatch"
+    },
+    {
+      "pattern": "*:*_energy_output_hatch_4a",
+      "componentType": "DYNAMO_HATCH",
+      "priority": 90,
+      "displayPrefix": "4A",
+      "description": "4A Dynamo Hatch"
+    },
+    {
+      "pattern": "*:*_energy_output_hatch_16a",
+      "componentType": "DYNAMO_HATCH",
+      "priority": 90,
+      "displayPrefix": "16A",
+      "description": "16A Dynamo Hatch"
+    },
+    {
+      "pattern": "*:*_energy_output_hatch_64a",
+      "componentType": "DYNAMO_HATCH",
+      "priority": 90,
+      "displayPrefix": "64A",
+      "description": "64A Dynamo Hatch"
+    },
+    {
+      "pattern": "*:*_substation_input_hatch_*",
+      "componentType": "SUBSTATION_INPUT_ENERGY",
+      "priority": 95,
+      "description": "Substation Input Energy"
+    },
+    {
+      "pattern": "*:*_substation_output_hatch_*",
+      "componentType": "SUBSTATION_OUTPUT_ENERGY",
+      "priority": 95,
+      "description": "Substation Output Energy"
+    },
+    {
+      "pattern": "*:*_energy_input_hatch",
+      "componentType": "ENERGY_HATCH",
+      "priority": 10,
+      "description": "Generic energy input hatch"
+    },
+    {
+      "pattern": "*:*_energy_output_hatch",
+      "componentType": "DYNAMO_HATCH",
+      "priority": 10,
+      "description": "Generic dynamo hatch"
+    }
+  ]
+}

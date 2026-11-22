@@ -1,4 +1,4 @@
-filename = 'chromatic_codes-0.16.2.jar'
+filename = 'chromatic_codes-0.16.7.jar'
 name = "Phoenix's Chromatic Codes"
 side = 'client'
 x-prismlauncher-loaders = [ 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '3ac0c612fbb88f793a0c27622f8894433c5e75c6'
+hash = 'fcf9964c99136514fc1fc2681e91228f71892a38'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 9002641
+file-id = 9677835
 project-id = 1483210

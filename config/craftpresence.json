@@ -133,9 +133,7 @@
       "endTimestamp": "",
       "buttons": {}
     },
-    "dynamicIcons": {
-      "abibok.skuf.club": "https://api.mcsrvstat.us/icon/abibok.skuf.club"
-    },
+    "dynamicIcons": {},
     "dynamicVariables": {
       "mods": "{general.mods} Mod(s)",
       "player_info_coordinate": "At {player.position.x}, {player.position.z}",

@@ -1,4 +1,4 @@
-filename = 'reliable_recipes-3.8.2+1.20.1-forge.jar'
+filename = 'reliable_recipes-3.9.0-1.20.1-forge.jar'
 name = 'Reliable Recipes'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'd13a8b05073eba0c7b3343f98cdc61a39ac20828'
+hash = '90da604b0e08ba7387152ea4f506fe0ca29ab427'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 9326255
+file-id = 9567042
 project-id = 1414959

@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(li)$(bold)$(l:agriculture/greenhouse#types)温室类型$()$(li)$(bold)$(l:agriculture/greenhouse#planters)种植盆$()$(li2)$(l:agriculture/greenhouse#large_planter)大型种植盆$()$(li2)$(l:agriculture/greenhouse#quad_planter)四槽种植盆$()$(li2)$(l:agriculture/greenhouse#bonsai_planter)盆栽种植盆$()$(li2)$(l:agriculture/greenhouse#hanging_planter)悬挂种植盆$()$(li2)$(l:agriculture/greenhouse#trellis_planter)格子种植架$()$(li2)$(l:agriculture/greenhouse#hydroponic_planter)水培种植盆$()$(li)$(bold)$(l:agriculture/greenhouse#irrigation)灌溉$()$(li)$(bold)$(l:agriculture/greenhouse#auto_harvesting)自动收获$()$(li)$(bold)$(l:agriculture/greenhouse#electric)电力温室$()$(li)$(bold)$(l:agriculture/greenhouse#hydroponics)水培设施$()"
+            "text": "$(li)$(bold)$(l:agriculture/greenhouse#types)温室类型$()$(li)$(bold)$(l:agriculture/greenhouse#planters)种植盆$()$(li2)$(l:agriculture/greenhouse#large_planter)大型种植盆$()$(li2)$(l:agriculture/greenhouse#quad_planter)四槽种植盆$()$(li2)$(l:agriculture/greenhouse#bonsai_planter)盆栽种植盆$()$(li2)$(l:agriculture/greenhouse#hanging_planter)悬挂种植盆$()$(li2)$(l:agriculture/greenhouse#trellis_planter)格子种植架$()$(li2)$(l:agriculture/greenhouse#hydroponic_planter)水培种植盆$()$(li)$(bold)$(l:agriculture/greenhouse#irrigation)灌溉$()$(li)$(bold)$(l:agriculture/greenhouse#auto_planting)自动种植$()$(li)$(bold)$(l:agriculture/greenhouse#auto_harvesting)自动收获$()$(li)$(bold)$(l:agriculture/greenhouse#bees_and_taps)蜂箱和树汁导管$()$(li)$(bold)$(l:agriculture/greenhouse#electric)电力温室$()$(li)$(bold)$(l:agriculture/greenhouse#hydroponics)水培设施$()"
         },
         {
             "type": "patchouli:text",
@@ -45,7 +45,7 @@
             "type": "patchouli:text",
             "anchor": "planters",
             "title": "种植盆",
-            "text": "$(thing)种植盆$()用于在温室里种植作物。种植盆里的作物和普通作物一样会消耗 $(l:agriculture/growing_crops#intro)营养$()。种植盆应放置在有效的温室内，并用 $(item)气象站$() 激活。种植盆需要一定的自然阳光才能工作。"
+            "text": "$(thing)种植盆$()用于在温室里种植作物。种植盆里的作物和普通作物一样会消耗 $(l:agriculture/growing_crops#intro)营养$()。种植盆应放置在有效的温室内，并用 $(item)气象站$() 激活。种植盆需要一定的光照才能工作。"
         },
         {
             "type": "patchouli:spotlight",
@@ -102,6 +102,13 @@
         },
         {
             "type": "patchouli:spotlight",
+            "anchor": "auto_planting",
+            "title": "自动种植",
+            "item": "create:mechanical_arm",
+            "text": "$(thing)动力臂$()可用于在种植盆中种植作物。将种植盆设为动力臂的目标后，动力臂会自动从指定的置物台中取出种子，并根据每种种子类型将其种入相应的种植盆中。"
+        },
+        {
+            "type": "patchouli:spotlight",
             "anchor": "auto_harvesting",
             "title": "自动收获",
             "item": "firmalife:sweeper,firmalife:picker",
@@ -110,6 +117,13 @@
         {
             "type": "patchouli:text",
             "text": "$(li)此外，$(item)收获篮$()还可以用来收获大多数类型的种植盆。$(li)要收集 $(thing)清扫器$() 和 $(thing)采摘器$() 掉落的散落物品，可以使用 $(item)漏斗矿车$()、一种 $(thing)机械动力装置$()（带 $(item)漏斗$()），或 格雷的 $(item)物品收集器$()。"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "anchor": "bees_and_taps",
+            "title": "蜂箱和树汁导管",
+            "item": "firmalife:beehive,afc:tree_tap",
+            "text": "$(l:agriculture/beekeeping)蜂箱$()和$(l:agriculture/tree_tapping)树汁导管$()放置在温室中都能受益！温室的可控气候能确保全年生产力，忽略温度的季节性变化。"
         },
         {
             "type": "patchouli:spotlight",

@@ -1,4 +1,4 @@
-filename = 'everycomp-1.20-2.9.28-forge.jar'
+filename = 'everycomp-1.20-2.9.29-forge.jar'
 name = 'Every Compat (Wood Good)'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '9bd0e105c977fcebd3aec7d59f2a46a93b189342'
+hash = 'c881f0894cf804d85d2833fc7d509f061cd9b189'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 9318794
+file-id = 9469065
 project-id = 628539

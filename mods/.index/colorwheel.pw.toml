@@ -1,4 +1,4 @@
-filename = 'colorwheel-forge-1.3.0+mc1.20.1.jar'
+filename = 'colorwheel-forge-1.3.2-mc1.20.1.jar'
 name = 'Colorwheel'
 side = 'client'
 x-prismlauncher-loaders = [ 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'd09341205f640bfb33d5d70ee28d408bbbe44a1a'
+hash = '266c1394b56251c4fd60b43dc2f8c3713e63deb1'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8990882
+file-id = 9427084
 project-id = 1254143

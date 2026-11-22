@@ -1,4 +1,4 @@
-filename = 'applied_ammo_box-1.20.1-1.2.3.jar'
+filename = 'applied_ammo_box-1.20.1-1.2.4.jar'
 name = '[TaCZ] Applied Ammo Box'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '86351432988a10b5940e3ae7ae4f5f43e95c169e'
+hash = '732495b41e5dff2d8f9b58ed351fe02f32d35e10'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8412068
+file-id = 9493120
 project-id = 1338332

@@ -54,9 +54,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "greate": {
-    "saw.active_recipe_type": true
-  },
   "gtmutils": {
     "web_info": true,
     "enlarged_me_stocking_bus_info": true
@@ -73,9 +70,6 @@
   },
   "tfcgroomer": {
     "grooming_station": true
-  },
-  "fluidlogistics": {
-    "blaze_cooler_icon": true
   },
   "gtceu": {
     "primitive_pump": true,
@@ -165,7 +159,6 @@
     "loom": true,
     "bloom": true,
     "frog": true,
-    "vane": true,
     "rabbit": true,
     "sapling": true,
     "jerboa": true,
@@ -178,13 +171,10 @@
     "tamed_fox": true,
     "candle_cake": true,
     "horse": true,
-    "scraping": true,
     "charger": true,
     "clutch": true,
-    "calendar_clock": true,
     "animal": true,
     "fruit_tree_sapling": true,
-    "thermometer": true,
     "squid": true,
     "dog": true,
     "encased_axle": true,
@@ -207,12 +197,10 @@
     "mold_table": true,
     "wolf": true,
     "predator": true,
-    "bactrian_camel": true,
     "wild_animal": true,
     "crucible": true,
     "torch": true,
     "lamp": true,
-    "dromedary_camel": true,
     "fishing_hook": true,
     "water_wheel": true,
     "crankshaft": true,
@@ -223,7 +211,6 @@
     "candle": true,
     "jack_o_lantern": true,
     "firepit": true,
-    "anemometer": true,
     "bison": true,
     "soarer": true,
     "wet_concrete": true,
@@ -245,7 +232,6 @@
     "photograph_frame": true
   },
   "tfg": {
-    "gas_burner_info": true,
     "dynamic_age": true,
     "tier_locked_block_info": true
   },

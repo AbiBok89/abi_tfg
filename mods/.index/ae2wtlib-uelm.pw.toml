@@ -1,0 +1,16 @@
+filename = 'ae2wtlib-15.4.1.jar'
+name = 'AE2 Wireless Terminals Extended Life Modern'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '28a4b684a07b36a43a23a0a785433267ef98555c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9531944
+project-id = 1787710

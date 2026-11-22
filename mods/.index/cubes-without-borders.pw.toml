@@ -1,16 +1,16 @@
-filename = 'cwb-forge-3.0.0+mc1.20.jar'
+filename = 'cwb-5.0.0+1.20.0.forge.jar'
 name = 'Cubes Without Borders'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'f13cdf747b7f97a27f0a365f8390a72e3ea5fe99'
+hash = 'adbf6f2a94785168990fed5b9ac80993fd189e13'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5855464
+file-id = 9309019
 project-id = 975120

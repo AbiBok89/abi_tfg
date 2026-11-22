@@ -1,4 +1,4 @@
-filename = 'TerraFirmaGreg-Core-Modern-0.9.31.jar'
+filename = 'TerraFirmaGreg-Core-Modern-0.9.36.jar'
 name = 'TerraFirmaGreg-Core'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '2bdf37467a26e26d6cde8ddc3d9bf298723f1fcd'
+hash = '8c2db0bb38c7350e5b7fd615bc79fb54349b71ac'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 9333497
+file-id = 9699985
 project-id = 513402

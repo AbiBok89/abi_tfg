@@ -14,7 +14,7 @@
 	"block.minecraft.chiseled_red_sandstone": "Rzeźbiony hematytowy piaskowiec",
 	"block.minecraft.chiseled_stone_bricks": "Rzeźbione cegły z odtworzonego kamienia",
 	"block.minecraft.coal_block": "Blok węgla kamiennego",
-	"block.minecraft.cobbled_deepslate": "Migmatytytowy bruk",
+	"block.minecraft.cobbled_deepslate": "Migmatytowy bruk",
 	"block.minecraft.cobbled_deepslate_slab": "Brukowa migmatytowa płyta",
 	"block.minecraft.cobbled_deepslate_stairs": "Brukowe migmatytowe schody",
 	"block.minecraft.cobbled_deepslate_wall": "Brukowy migmatytowy murek",
@@ -153,5 +153,6 @@
 	"item.minecraft.string": "Jedwabna nić",
 	"material.tfg.dripstone": "Trawertyn",
 	"tag.item.minecraft.wool": "Bloki tkaniny",
-	"tag.item.minecraft.wool_carpets": "Dywany"
+	"tag.item.minecraft.wool_carpets": "Dywany",
+	"fluid_type.minecraft.milk": "Krowie mleko"
 }

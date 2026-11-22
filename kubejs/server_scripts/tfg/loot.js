@@ -54,6 +54,9 @@ function registerTFGLoots(event) {
 			.pool((pool) => {
 				pool.rolls([0, 3]);
 				pool.addAlternativesLoot(
+					LootEntry.of('createdeco:copper_coinstack').when((c) => c.randomChance(0.1)),
+					LootEntry.of('createdeco:gold_coinstack').when((c) => c.randomChance(0.1)),
+					LootEntry.of('createdeco:iron_coin').when((c) => c.randomChance(0.1)),
 					LootEntry.of('tfc:wool_yarn').when((c) => c.randomChance(0.1)),
 					LootEntry.of('tfc:blubber').when((c) => c.randomChance(0.1)),
 					LootEntry.of('minecraft:bone').when((c) => c.randomChance(0.1)),
@@ -157,10 +160,14 @@ function registerTFGLoots(event) {
 
 	GLASSES.forEach(glass => {
 		event.addBlockLootModifier(glass)
-			.matchMainHand(Item.of('tfc:gem_saw'))
+			.or((or) => {
+            	or.matchMainHand("#forge:tools/buzzsaws").matchMainHand(Item.of('tfc:gem_saw'))
+        	})
 			.addLoot(glass)
 		event.addBlockLootModifier(`${glass}_pane`)
-			.matchMainHand(Item.of('tfc:gem_saw'))
+			.or((or) => {
+            	or.matchMainHand("#forge:tools/buzzsaws").matchMainHand(Item.of('tfc:gem_saw'))
+        	})
 			.addLoot(`${glass}_pane`)
 
 	})
@@ -178,7 +185,7 @@ function registerTFGLoots(event) {
 		event.addBlockLootModifier(loco_glass)
 			.removeLoot(Ingredient.all)
 			.or((or) => {
-            	or.matchMainHand("#forge:tools/wrench").matchMainHand(Item.of('tfc:gem_saw'))
+            	or.matchMainHand("#forge:tools/wrench").matchMainHand(Item.of('tfc:gem_saw')).matchMainHand("#forge:tools/buzzsaws")
         	})
 			.addLoot(loco_glass)
 
@@ -188,7 +195,7 @@ function registerTFGLoots(event) {
 				event.addBlockLootModifier(loco_glass_dyed)
 					.removeLoot(Ingredient.all)
 					.or((or) => {
-						or.matchMainHand("#forge:tools/wrench").matchMainHand(Item.of('tfc:gem_saw'))
+						or.matchMainHand("#forge:tools/wrench").matchMainHand(Item.of('tfc:gem_saw')).matchMainHand("#forge:tools/buzzsaws")
 					})
 					.addLoot(loco_glass_dyed)
 			})

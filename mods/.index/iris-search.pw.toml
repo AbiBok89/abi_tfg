@@ -1,4 +1,4 @@
-filename = 'IrisSearch-1.8.3-forge.jar'
+filename = 'IrisSearch-1.8.4-forge.jar'
 name = 'Iris & Oculus Search'
 side = 'client'
 x-prismlauncher-loaders = [ 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'bc349eb376d798bb9a92e6c0bb990ada9517308e'
+hash = '6ce4e8ca938e3e30b36e6acd6387d277ef20e1d5'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 9122533
+file-id = 9390088
 project-id = 1583035

@@ -1,16 +1,16 @@
-filename = 'lithostitched-forge-1.20.1-1.4.11.jar'
+filename = 'lithostitched-forge-1.20.1-1.4.12.jar'
 name = 'Lithostitched'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'd1a755de84ee5d8910ff1e65e815473056e93ece'
+hash = 'c8a23f9c1975f11a8d10110aa862251a6043db78'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6742615
+file-id = 9486341
 project-id = 936015

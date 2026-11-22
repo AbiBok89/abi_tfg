@@ -1,0 +1,7 @@
+
+#GTCEu Terminal Addon Client Configuration
+[general]
+	#Radius in blocks for the client-side multiblock scan in the Multi-Structure Manager (default: 32)
+	#Range: 8 ~ 128
+	multiblockScanRadius = 32
+

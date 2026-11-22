@@ -1,5 +1,8 @@
+#593 tfg:earth/badlands
 #5D1 tfg:earth/buttes
+#53D tfg:earth/cenote_rolling_hills
 #6B8 tfg:earth/hills
+#69F tfg:earth/lake
 #166 tfg:earth/low_canyons
 #4D4 tfg:earth/old_mountains
 #370 tfg:earth/plateau

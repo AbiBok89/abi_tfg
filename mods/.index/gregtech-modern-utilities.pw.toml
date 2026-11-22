@@ -1,4 +1,4 @@
-filename = 'gtmutils-2.10.2.jar'
+filename = 'gtmutils-2.10.3.jar'
 name = 'GregTech Modern Utilities'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '13dc786b616ef44ba61c8e4d23d8090ff9164ca3'
+hash = '859349b3259d8b121e9017ae13b664bd39ce7925'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8728484
+file-id = 9661078
 project-id = 1235020

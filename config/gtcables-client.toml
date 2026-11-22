@@ -1,0 +1,4 @@
+#The maximum render distance for cables. If 0, will use the normal render distance.
+#Range: > 0
+render_distance = 0
+
